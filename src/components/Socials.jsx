@@ -10,7 +10,7 @@ const Socials = () => {
         <div className="flex justify-center gap-6">
           <Link to="https://wa.me/+254758407285">
             <img
-              src="dist/images/whatsapp-white.svg"
+              src="images/whatsapp-white.svg"
               alt="Whatsapp icon"
               className="h-8"
             />
@@ -18,7 +18,7 @@ const Socials = () => {
 
           <Link to="mailto:victormuthomi100@gmail.com">
             <img
-              src="dist/images/Gmail-White.svg"
+              src="images/Gmail-White.svg"
               alt="Gmail icon"
               className="h-8"
             />
@@ -26,22 +26,18 @@ const Socials = () => {
 
           <Link to="https://github.com/Victormuthomi">
             <img
-              src="dist/images/github-mark-white.svg"
+              src="images/github-mark-white.svg"
               alt="Github ico"
               className="h-8"
             />
           </Link>
           <Link to="https://x.com/kiba_nga">
-            <img
-              src="dist/images/x-white-icon.svg"
-              alt="X icon"
-              className="h-8"
-            />
+            <img src="images/x-white-icon.svg" alt="X icon" className="h-8" />
           </Link>
 
           <Link to="https://www.linkedin.com/in/victor-muthomi-693aa4265/">
             <img
-              src="dist/images/linkedin-white.svg"
+              src="images/linkedin-white.svg"
               alt="linkedin icon"
               className="h-8"
             />
