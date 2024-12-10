@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 const Socials = () => {
   return (
     <>
-      <div className="text-center mt-6" id="socials">
-        <h3 className="text-2xl text-slate-50 font-semibold mb-8">
+      <div className="text-center mt-8" id="socials">
+        <h3 className="text-2xl text-slate-50 font-semibold py-2 mt-8 mb-6">
           Or Connect with Me
         </h3>
-        <div className="flex justify-center gap-6">
+        <div className="flex justify-center gap-6 mb-6">
           <Link to="https://wa.me/+254758407285">
             <img
               src="images/whatsapp-white.svg"

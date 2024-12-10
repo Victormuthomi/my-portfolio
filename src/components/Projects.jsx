@@ -5,7 +5,7 @@ const Projects = () => {
     <>
       {/* <!-- Projects Section --> */}
       <section className="py-20" id="projects">
-        <h2 className="text-4xl text-slate-50 font-bold text-center mb-6">
+        <h2 className="text-4xl text-slate-50 font-bold text-center mb-6 ">
           My Projects
         </h2>
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8 px-6">

@@ -15,7 +15,7 @@ function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-2xl mx-auto bg-slate-700 border p-8 rounded-lg shadow-lg"
+      className="max-w-2xl mx-auto bg-slate-700 border px-6 py-4 rounded-lg shadow-lg "
     >
       <label htmlFor="name" className="block text-gray-700 mb-2">
         Name
