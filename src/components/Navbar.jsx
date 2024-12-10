@@ -6,7 +6,7 @@ const Navbar = () => {
       <header className="text-slate-50">
         <nav className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
           <a href="#" className="text-2xl font-bold">
-            Victor Muthomi
+            VM
           </a>
           <ul className="flex space-x-6">
             <li>
