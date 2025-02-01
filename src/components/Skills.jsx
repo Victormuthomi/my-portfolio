@@ -13,13 +13,12 @@ const Skills = () => {
   return (
     <>
       {/* <!-- Skills Section --> */}
-      <div className="rounded-full border-2 mb-6  border-fuchsia-300"></div>
       <div className="flex justify-center items-center">
         <section
           className="max-w-7xl mx-auto px-2 py-2 mb-2 w-[980px]"
           id="skills"
         >
-          <div className="flex justify-center items-center underline decoration-fuchsia-300">
+          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500">
             <h2 className=" text-5xl font-bold text-center text-fuchsia-500 mb-6">
               SKILLS
             </h2>

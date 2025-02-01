@@ -6,20 +6,20 @@ const Navbar = () => {
 
   return (
     <header className="text-slate-50">
-      <nav className="w-full ">
-        <div className="flex md:justify-start justify-start items-center md:ml-32 ml-4 md:mb-0 mb-4 space-x-1">
+      <nav className="w-full h-[80px] ">
+        <div className="flex md:justify-start justify-start items-center md:ml-32 ml-4 md:mb-0 mb-4 space-x-0">
           <a
             href="#"
-            className="md:text-5xl text-4xl text-cyan-300 pt-10 cursor-pointer font-bold"
+            className="md:text-5xl text-4xl text-cyan-300 pt-6 cursor-pointer font-bold"
           >
             V
           </a>
           <a href="#">
-            <GiScorpion className="md:text-7xl text-4xl mt-8 text-cyan-300" />
+            <GiScorpion className="md:text-7xl text-4xl pt-4  text-cyan-300" />
           </a>
           <a
             href="#"
-            className="md:text-5xl text-4xl text-cyan-300 pt-10 cursor-pointer font-bold"
+            className="md:text-5xl text-4xl text-cyan-300 pt-4 cursor-pointer font-bold"
           >
             M
           </a>
