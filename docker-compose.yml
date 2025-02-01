@@ -1,0 +1,9 @@
+services:
+  frontend:
+  build:
+    context: .
+    dockerfile: Dockerfile
+  image: victor-portfolio
+  container_name: victor-portfolio
+  ports:
+    - "8085:80"
