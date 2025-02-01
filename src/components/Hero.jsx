@@ -1,27 +1,44 @@
-import React from "react";
+import me from "../assets/me2.jpg";
 
 const Hero = () => {
   return (
     <>
-      <section
-        className="text-slate-50 dark:text-slate-50 bg-white dark:bg-slate-900 text-center"
-        id="hero"
-      >
-        <h1 className="text-5xl font-bold py-8 mt-4 mb-1">
-          Hi, I'm Victor Muthomi
-        </h1>
-        <p className="text-3xl mb-6">
-          A Full-Stack Developer specializing in MERN stack and Python/Django
-        </p>
-        <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm ">
-          <a
-            href="#contact"
-            className="bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-white font-semibold h-12 px-6 rounded-lg  flex items-center justify-center sm:w-auto dark:bg-sky-500 dark:highlight-white/20 dark:hover:bg-sky-400"
-          >
-            Get in Touch
-          </a>
-        </div>
-      </section>
+      <div className="flex justify-center items-center">
+        <section
+          className="text-slate-50  h-[680px] w-[1000px] mt-24 text-center"
+          id="hero"
+        >
+          <div className="md:flex justify-center items-center justify-start items-start gap-4 md:pl-44 pl-12 mb-2">
+            <img
+              src={me}
+              alt="me"
+              className="w-80 h-80 rounded-full border-4 border-fuchsia-300"
+            />
+            <div className="md:flex justify-end items-end mb-2 hidden">
+              <img className="w-80 h-80 rounded-full border-4  border-fuchsia-300" />
+            </div>
+          </div>
+
+          <div className="py-10">
+            <h1 className="text-5xl py-4 text-center font-bold">Hi, I'm</h1>
+            <h2 className="text-5xl  text-center text-fuchsia-400 font-bold">
+              Victor Muthomi
+            </h2>
+          </div>
+          <p className="text-3xl text-center ">
+            Transforming ideas into dynamic web solutions with MERN Stack &
+            Python/Django.
+          </p>
+          <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm ">
+            <a
+              href="#contact"
+              className="bg-fuchsia-500 hover:bg-fuchsia-300 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-white font-semibold h-12 px-6 rounded-lg  flex items-center justify-center sm:w-auto"
+            >
+              Get in Touch
+            </a>
+          </div>
+        </section>
+      </div>
     </>
   );
 };
