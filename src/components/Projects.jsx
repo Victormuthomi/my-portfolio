@@ -5,13 +5,12 @@ const Projects = () => {
   return (
     <>
       {/* <!-- Projects Section --> */}
-      <div className="rounded-full md:border-2 border-1 mb-6  border-fuchsia-300"></div>
       <div className="flex justify-center items-center">
         <section
           className="md:py-0 py-14 md:h-[650px] h-[1000px] w-[1200px]"
           id="projects"
         >
-          <div className="flex justify-center items-center underline decoration-fuchsia-300">
+          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500">
             <h2 className=" text-5xl font-bold text-center text-fuchsia-500 mb-6">
               PROJECTS
             </h2>
@@ -64,7 +63,7 @@ const Projects = () => {
             <img
               src={me}
               alt="me"
-              className="hidden md:block w-80 h-80 mt-8 rounded-full border-4 border-fuchsia-300"
+              className="hidden md:block w-80 h-80 mt-20 rounded-full border-4 border-fuchsia-300"
             />
 
             <div className="flex justify-center items-center">

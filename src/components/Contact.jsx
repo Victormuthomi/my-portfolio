@@ -18,7 +18,7 @@ function ContactForm() {
     <div className="flex justify-center items-center">
       <form
         onSubmit={handleSubmit}
-        className="max-w-2xl w-[900px] border-4 border-fuchsia-300 px-6 py-4 rounded-3xl"
+        className="max-w-2xl w-[900px] md:border-4 border-fuchsia-300 px-6 py-4 rounded-3xl"
       >
         <div className="relative">
           <FaUser className="absolute mt-6 text-white text-2xl  transform -translate-y-1/2" />
@@ -82,10 +82,10 @@ function App() {
   return (
     <>
       <div
-        className="flex justify-center items-center underline decoration-fuchsia-300"
+        className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500"
         id="contact"
       >
-        <h2 className=" text-5xl font-bold text-center text-fuchsia-500 mb-6">
+        <h2 className=" text-5xl font-bold text-center text-fuchsia-500 md:mb-6 mb-2">
           CONTACT ME
         </h2>
         <MdConnectWithoutContact className="text-6xl ml-4 md:mb-6 mb-20 md:mt-0 mt-8 text-white " />

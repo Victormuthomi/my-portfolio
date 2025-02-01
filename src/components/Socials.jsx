@@ -11,22 +11,22 @@ const Socials = () => {
         </h3>
         <div className="flex justify-center gap-6 mb-6">
           <Link to="https://wa.me/+254758407285">
-            <FaWhatsapp className="text-5xl text-white" />
+            <FaWhatsapp className="text-5xl text-white hover:text-fuchsia-400" />
           </Link>
 
           <Link to="mailto:victormuthomi100@gmail.com">
-            <SiGmail className="text-5xl text-white" />
+            <SiGmail className="text-5xl text-white hover:text-fuchsia-400" />
           </Link>
 
           <Link to="https://github.com/Victormuthomi">
-            <FaGithub className="text-5xl text-white" />
+            <FaGithub className="text-5xl text-white hover:text-fuchsia-400" />
           </Link>
           <Link to="https://x.com/kiba_nga">
-            <FaXTwitter className="text-white text-5xl" />
+            <FaXTwitter className="text-white text-5xl hover:text-fuchsia-400" />
           </Link>
 
           <Link to="https://www.linkedin.com/in/victor-muthomi-693aa4265/">
-            <FaLinkedin className="text-white text-5xl" />
+            <FaLinkedin className="text-white text-5xl hover:text-fuchsia-400" />
           </Link>
         </div>
       </div>
