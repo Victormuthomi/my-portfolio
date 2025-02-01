@@ -20,14 +20,14 @@ const Hero = () => {
           </div>
 
           <div className="py-10">
-            <h1 className="text-5xl py-4 text-center font-bold">Hi, I'm</h1>
+            <h1 className="text-5xl py-4 text-center font-bold">Hi, I am</h1>
             <h2 className="text-5xl  text-center text-fuchsia-400 font-bold">
               Victor Muthomi
             </h2>
           </div>
           <p className="text-3xl text-center ">
-            Transforming ideas into dynamic web solutions with MERN Stack &
-            Python/Django.
+            Programming innovative solutions and transforming ideas into
+            impactful, tech-driven results.
           </p>
           <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm ">
             <a
