@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FaXTwitter, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 
 const Socials = () => {
   return (
@@ -9,38 +11,22 @@ const Socials = () => {
         </h3>
         <div className="flex justify-center gap-6 mb-6">
           <Link to="https://wa.me/+254758407285">
-            <img
-              src="images/whatsapp-white.svg"
-              alt="Whatsapp icon"
-              className="h-8"
-            />
+            <FaWhatsapp className="text-5xl text-white" />
           </Link>
 
           <Link to="mailto:victormuthomi100@gmail.com">
-            <img
-              src="images/Gmail-White.svg"
-              alt="Gmail icon"
-              className="h-8"
-            />
+            <SiGmail className="text-5xl text-white" />
           </Link>
 
           <Link to="https://github.com/Victormuthomi">
-            <img
-              src="images/github-mark-white.svg"
-              alt="Github ico"
-              className="h-8"
-            />
+            <FaGithub className="text-5xl text-white" />
           </Link>
           <Link to="https://x.com/kiba_nga">
-            <img src="images/x-white-icon.svg" alt="X icon" className="h-8" />
+            <FaXTwitter className="text-white text-5xl" />
           </Link>
 
           <Link to="https://www.linkedin.com/in/victor-muthomi-693aa4265/">
-            <img
-              src="images/linkedin-white.svg"
-              alt="linkedin icon"
-              className="h-8"
-            />
+            <FaLinkedin className="text-white text-5xl" />
           </Link>
         </div>
       </div>
