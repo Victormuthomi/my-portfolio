@@ -1,6 +1,7 @@
 const About = () => {
   return (
     <>
+      <div className="rounded-full border-2  border-fuchsia-300"></div>
       <div className="flex justify-center items-center">
         <section
           className=" max-w-7xl md:py-6 py-10  h-[400px] mt-16 mb-16 w-[950px] "
