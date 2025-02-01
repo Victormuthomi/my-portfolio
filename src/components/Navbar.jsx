@@ -1,18 +1,33 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { GiScorpion } from "react-icons/gi";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <header className="text-slate-50">
-      <nav className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold">
-          Victor Muthomi
-        </a>
+      <nav className="w-full ">
+        <div className="flex md:justify-start justify-start items-center md:ml-32 ml-4 md:mb-0 mb-4 space-x-1">
+          <a
+            href="#"
+            className="md:text-5xl text-4xl text-cyan-300 pt-10 cursor-pointer font-bold"
+          >
+            V
+          </a>
+          <a href="#">
+            <GiScorpion className="md:text-7xl text-4xl mt-8 text-cyan-300" />
+          </a>
+          <a
+            href="#"
+            className="md:text-5xl text-4xl text-cyan-300 pt-10 cursor-pointer font-bold"
+          >
+            M
+          </a>
+        </div>
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden md:flex justify-end items-end space-x-4 text-cyan-300 font-semibold  text-2xl underline decoration-cyan-200 mr-4">
           <li>
-            <a href="#about" className="hover:text-indigo-300">
+            <a href="#about" className=" hover:text-indigo-300">
               About
             </a>
           </li>
@@ -40,7 +55,7 @@ const Navbar = () => {
         {/* Hamburger Button */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="block md:hidden focus:outline-none"
+          className="block md:hidden ml-6 focus:outline-none"
         >
           <svg
             className="w-6 h-6 text-slate-50"
@@ -60,8 +75,8 @@ const Navbar = () => {
       </nav>
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-slate-900 px-4 py-4">
-          <ul className="flex flex-col space-y-4">
+        <div className="md:hidden bg-transparent text-left underline decoration-cyan-200 text-cyan-300 px-4 py-4">
+          <ul className="flex flex-row ml-4 space-x-8">
             <li>
               <a href="#about" className="hover:text-indigo-300">
                 About
