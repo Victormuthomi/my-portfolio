@@ -1,88 +1,121 @@
-import React from "react";
+import { FaDiagramProject } from "react-icons/fa6";
+import me from "../assets/me3.jpg";
 
 const Projects = () => {
   return (
     <>
       {/* <!-- Projects Section --> */}
-      <section className="py-20" id="projects">
-        <h2 className="text-4xl text-slate-50 font-bold text-center mb-6 ">
-          My Projects
-        </h2>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8 px-6">
-          {/* <!-- Project 1 --> */}
-          <div className="bg-teal  border rounded-lg p-6 shadow-lg 5">
-            <h3 className="text-xl text-slate-50 font-semibold mb-4">
-              Recipe Tracker
-            </h3>
-            <p className="text-slate-150 mb-4">
-              A full-stack recipe tracker application built using React and
-              local storage for persistence, allowing users to create, edit, and
-              delete recipes while saving their data locally for long-term
-              access.
-            </p>
-            <a
-              href="https://recipe-tracker-phi.vercel.app/"
-              className="text-indigo-700  hover:underline"
-            >
-              View Project
-            </a>
+      <div className="rounded-full md:border-2 border-1 mb-6  border-fuchsia-300"></div>
+      <div className="flex justify-center items-center">
+        <section
+          className="md:py-0 py-14 md:h-[650px] h-[1000px] w-[1200px]"
+          id="projects"
+        >
+          <div className="flex justify-center items-center underline decoration-fuchsia-300">
+            <h2 className=" text-5xl font-bold text-center text-fuchsia-500 mb-6">
+              PROJECTS
+            </h2>
+            <FaDiagramProject className="text-5xl ml-4 mb-6 text-white " />
           </div>
-          {/* <!-- Project 2 --> */}
-          <div className="bg-teal  border  rounded-lg p-6 shadow-lg ">
-            <h3 className="text-xl text-slate-50 font-semibold mb-4">
-              Online Voting Website
-            </h3>
-            <p className="text-slate-150 mb-4">
-              An online voting system built using Django, designed to securely
-              manage elections by allowing users to register, authenticate, and
-              cast votes. It ensures integrity and transparency with robust
-              backend logic and database management.
-            </p>
-            <a
-              href="https://github.com/Victormuthomi/voting_website"
-              className="text-indigo-700 over:underline"
-            >
-              View Project
-            </a>
-          </div>
+          <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 md:gap-8  gap-10 px-6">
+            {/* <!-- Project 1 --> */}
 
-          <div className="bg-teal  border  rounded-lg p-6 shadow-lg">
-            <h3 className="text-xl text-slate-50 font-semibold mb-4">
-              Goals Project
-            </h3>
-            <p className="text-slate-150 mb-4">
-              A goals management application built using Node.js and Express,
-              enabling users to set, track, update, and delete their goals. It
-              features a streamlined API design and ensures efficient data
-              handling for seamless goal management.
-            </p>
-            <a
-              href="https://github.com/Victormuthomi/goal_project"
-              className="text-indigo-700 hover:underline"
-            >
-              View Project
-            </a>
-          </div>
+            <div className="text-center bg- rounded-full border-0  border-fuchsia-300 w-78 h-82"></div>
 
-          <div className="bg-teal  border  rounded-lg p-6 shadow-lg ">
-            <h3 className="text-xl text-slate-50 font-semibold mb-4">
-              Landing page
-            </h3>
-            <p className="text-slate-150 mb-4">
-              A responsive landing page designed with Tailwind CSS, offering a
-              modern and visually appealing layout. It features customizable
-              sections for showcasing content, call-to-action buttons, and
-              smooth responsiveness across all devices.
-            </p>
-            <a
-              href="https://cosmic-ganache-e2d253.netlify.app/"
-              className="text-indigo-700 hover:underline"
-            >
-              View Project
-            </a>
+            <div className="flex justify-center items-center">
+              <div className="text-center bg- rounded-full border-4  border-fuchsia-300 w-96 h-90">
+                <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
+                  Recipe Tracker
+                </h3>
+
+                <p className="text-slate-100 p-2">
+                  A full-stack recipe tracker application allowing users to
+                  create, edit, and delete recipes while saving their data
+                  locally for long-term access.
+                </p>
+                <a
+                  href="https://recipe-tracker-phi.vercel.app/"
+                  className="text-fuchsia-600  hover:underline"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-center items-center">
+              <div className="text-center bg- rounded-full border-4  border-fuchsia-300 w-96 h-90">
+                <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
+                  Online Voting Website
+                </h3>
+
+                <p className="text-slate-100 p-2">
+                  An online voting system designed to securely manage elections
+                  and ensure integrity and transparency.
+                </p>
+                <a
+                  href="https://github.com/Victormuthomi/voting_website"
+                  className="text-fuchsia-600  hover:underline"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+
+            <img
+              src={me}
+              alt="me"
+              className="hidden md:block w-80 h-80 mt-8 rounded-full border-4 border-fuchsia-300"
+            />
+
+            <div className="flex justify-center items-center">
+              <div className="text-center bg- rounded-full border-4  border-fuchsia-300 w-96 h-90">
+                <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
+                  Inventory Management
+                </h3>
+
+                <p className="text-slate-100 p-2">
+                  A smart and efficient inventory management system designed to
+                  track, manage, and optimize stock levels with ease and
+                  accuracy.
+                </p>
+                <a
+                  href="http://194.195.215.228:8080/"
+                  className="text-fuchsia-600  hover:underline"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-center items-center">
+              <div className="text-center bg- rounded-full border-4  border-fuchsia-300 w-96 h-90">
+                <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
+                  Airbnb Management
+                </h3>
+
+                <p className="text-slate-100 p-2">
+                  A smart and efficient inventory management system designed to
+                  track, manage, and optimize stock levels with ease and
+                  accuracy.
+                </p>
+                <a
+                  href="https://github.com/Victormuthomi/private_airbnb"
+                  className="text-fuchsia-600  hover:underline"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
+      <div className="flex justify-center items-center">
+        <img
+          src={me}
+          alt="me"
+          className="block md:hidden w-80 h-80 mt-14  rounded-full border-4 border-fuchsia-300"
+        />
+      </div>
     </>
   );
 };
