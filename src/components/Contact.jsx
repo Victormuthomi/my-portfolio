@@ -85,10 +85,10 @@ function App() {
         className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500"
         id="contact"
       >
-        <h2 className=" text-5xl font-bold text-center text-fuchsia-500 md:mb-6 mb-2">
+        <h2 className=" text-5xl font-bold text-center text-fuchsia-500 md:mb-6 mb-2 hover:animate-pulse">
           CONTACT ME
         </h2>
-        <MdConnectWithoutContact className="text-6xl ml-4 md:mb-6 mb-20 md:mt-0 mt-8 text-white " />
+        <MdConnectWithoutContact className="text-6xl ml-4 md:mb-6 mb-20 md:mt-0 mt-8 text-white animate-spin slow-spin " />
       </div>
 
       <ContactForm />

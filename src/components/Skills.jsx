@@ -18,11 +18,11 @@ const Skills = () => {
           className="max-w-7xl mx-auto px-2 py-2 mb-2 w-[980px]"
           id="skills"
         >
-          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500">
+          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500 hover:animate-pulse">
             <h2 className=" text-5xl font-bold text-center text-fuchsia-500 mb-6">
               SKILLS
             </h2>
-            <FaTools className="text-4xl ml-4 md:mb-6 mb-20 text-white " />
+            <FaTools className="text-4xl ml-4 md:mb-6 mb-20 text-white animate-spin slow-spin " />
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
             <div className="text-center bg- rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">

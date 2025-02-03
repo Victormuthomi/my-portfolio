@@ -9,11 +9,11 @@ const About = () => {
           className=" max-w-7xl md:py-6 py-10  h-[400px] mt-16 mb-16 w-[950px] "
           id="about"
         >
-          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500">
+          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500 hover:animate-pulse">
             <h2 className=" text-5xl font-bold text-center text-fuchsia-500 mb-6 ">
               ABOUT ME
             </h2>
-            <FaUserGear className="text-5xl ml-4 mb-6 text-white " />
+            <FaUserGear className="text-5xl ml-4 mb-6 text-white animate-spin slow-spin " />
           </div>
           <p className="md:text-2xl text-1xl text-justify text-slate-200">
             I am a Full-Stack Developer who gets a kick out of building things
