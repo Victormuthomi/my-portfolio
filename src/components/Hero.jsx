@@ -21,7 +21,7 @@ const Hero = () => {
 
           <div className="py-10">
             <h1 className="text-5xl py-4 text-center font-bold">Hi, I am</h1>
-            <h2 className="text-5xl  text-center text-fuchsia-400 font-bold">
+            <h2 className="text-5xl  text-center text-fuchsia-400 font-bold animate-bounce">
               Victor Muthomi
             </h2>
           </div>

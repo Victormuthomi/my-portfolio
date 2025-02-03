@@ -10,11 +10,11 @@ const Projects = () => {
           className="md:py-0 py-14 md:h-[650px] h-[1000px] w-[1200px]"
           id="projects"
         >
-          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500">
+          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500 hover:animate-pulse">
             <h2 className=" text-5xl font-bold text-center text-fuchsia-500 mb-6">
               PROJECTS
             </h2>
-            <FaDiagramProject className="text-5xl ml-4 mb-6 text-white " />
+            <FaDiagramProject className="text-5xl ml-4 mb-6 text-white animate-spin slow-spin" />
           </div>
           <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 md:gap-8  gap-10 px-6">
             {/* <!-- Project 1 --> */}
