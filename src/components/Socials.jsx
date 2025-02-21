@@ -21,7 +21,7 @@ const Socials = () => {
           <Link to="https://github.com/Victormuthomi">
             <FaGithub className="text-5xl text-white hover:text-fuchsia-400 animate-pulse" />
           </Link>
-          <Link to="https://x.com/kiba_nga">
+          <Link to="https://x.com/Victormuthomim">
             <FaXTwitter className="text-white text-5xl hover:text-fuchsia-400 animate-pulse" />
           </Link>
 
