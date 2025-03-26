@@ -7,109 +7,95 @@ import {
   FaDocker,
 } from "react-icons/fa";
 import { BiLogoMongodb } from "react-icons/bi";
-import { SiExpress, SiDjango, SiTailwindcss } from "react-icons/si";
+import {
+  SiExpress,
+  SiDjango,
+  SiTailwindcss,
+  SiRedux,
+  SiSwagger,
+  SiGo,
+} from "react-icons/si";
+import { DiPostgresql } from "react-icons/di";
 
 const Skills = () => {
   return (
     <>
       {/* <!-- Skills Section --> */}
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mb-4">
         <section
-          className="max-w-7xl mx-auto px-2 py-2 mb-2 w-[980px]"
+          className="max-w-7xl mx-auto px-2 py-6 mb-10 w-full lg:w-[980px]"
           id="skills"
         >
-          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500 hover:animate-pulse">
-            <h2 className=" text-5xl font-bold text-center text-fuchsia-500 mb-6">
+          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500 hover:animate-pulse mb-8">
+            <h2 className="text-5xl font-bold text-center text-fuchsia-500">
               SKILLS
             </h2>
-            <FaTools className="text-4xl ml-4 md:mb-6 mb-20 text-white animate-spin slow-spin " />
+            <FaTools className="text-4xl ml-4 text-white animate-spin slow-spin" />
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
-            <div className="text-center bg- rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
-              <div className="flex justify-center">
-                <FaNodeJs className="text-6xl text-green-500  mb-2" />
-              </div>
-              <h3 className="font-semibold text-fuchsia-300 text-xl underline">
-                Node JS
-              </h3>
-              <p className="text-slate-100 text-2xl pt-4">85%</p>
-            </div>
+          {/* Responsive grid: 2 columns by default, 3 on md, 4 on lg */}
+          {/* On medium screens and above, the grid container shifts slightly to the left */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:ml-8">
+            {/* Row 1 (Backend) */}
+            <SkillCard icon={<FaNodeJs />} name="Node JS" percentage="85%" />
+            <SkillCard
+              icon={<SiExpress />}
+              name="Express JS"
+              percentage="92%"
+            />
+            <SkillCard icon={<SiDjango />} name="Django" percentage="90%" />
+            <SkillCard icon={<SiGo />} name="Go & Gin" percentage="80%" />
 
-            <div className="text-center bg- rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
-              <div className="flex justify-center">
-                <SiExpress className="text-6xl text-green-500  mb-2" />
-              </div>
-              <h3 className="font-semibold text-fuchsia-300 text-xl underline">
-                Express JS
-              </h3>
-              <p className="text-slate-100 text-2xl pt-4">92%</p>
-            </div>
+            {/* Row 2 (Frontend + Git & GitHub) */}
+            <SkillCard icon={<FaReact />} name="React" percentage="80%" />
+            <SkillCard icon={<SiRedux />} name="Redux" percentage="78%" />
+            <SkillCard
+              icon={<SiTailwindcss />}
+              name="TailwindCSS"
+              percentage="85%"
+            />
+            <SkillCard
+              icon={
+                <div className="flex justify-center">
+                  <FaGit className="mr-2" />
+                  <FaGithub />
+                </div>
+              }
+              name="Git & GitHub"
+              percentage="97%"
+            />
 
-            <div className="text-center bg- rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
-              <div className="flex justify-center">
-                <FaReact className="text-6xl text-green-500  mb-2" />
-              </div>
-              <h3 className="font-semibold text-fuchsia-300 text-xl underline">
-                React
-              </h3>
-              <p className="text-slate-100 text-2xl pt-4">80%</p>
-            </div>
-
-            <div className="text-center bg- rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
-              <div className="flex justify-center">
-                <SiDjango className="text-6xl text-green-500  mb-2" />
-              </div>
-              <h3 className="font-semibold text-fuchsia-300 text-xl underline">
-                Django
-              </h3>
-              <p className="text-slate-100 text-2xl pt-4">90%</p>
-            </div>
-
-            <div className="text-center bg- rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
-              <div className="flex justify-center">
-                <BiLogoMongodb className="text-6xl text-green-500  mb-2" />
-              </div>
-              <h3 className="font-semibold text-fuchsia-300 text-xl underline">
-                Mongo DB
-              </h3>
-              <p className="text-slate-100 text-2xl pt-4">70%</p>
-            </div>
-
-            <div className="text-center bg- rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
-              <div className="flex justify-center">
-                <FaGit className="text-6xl text-green-500  mb-2" />
-                <FaGithub className="text-6xl text-green-500 ml-2 mb-2" />
-              </div>
-              <h3 className="font-semibold text-fuchsia-300 text-xl underline">
-                Git & Github
-              </h3>
-              <p className="text-slate-100 text-2xl pt-4">97%</p>
-            </div>
-
-            <div className="text-center bg- rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
-              <div className="flex justify-center">
-                <SiTailwindcss className="text-6xl text-green-500  mb-2" />
-              </div>
-              <h3 className="font-semibold text-fuchsia-300 text-xl underline">
-                Tailwindcss
-              </h3>
-              <p className="text-slate-100 text-2xl pt-4">85%</p>
-            </div>
-
-            <div className="text-center bg- rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
-              <div className="flex justify-center">
-                <FaDocker className="text-6xl text-green-500  mb-2" />
-              </div>
-              <h3 className="font-semibold text-fuchsia-300 text-xl underline">
-                Docker
-              </h3>
-              <p className="text-slate-100 text-2xl pt-4">65%</p>
-            </div>
+            {/* Row 3 (Others) */}
+            <SkillCard icon={<FaDocker />} name="Docker" percentage="65%" />
+            <SkillCard
+              icon={<DiPostgresql />}
+              name="PostgreSQL"
+              percentage="75%"
+            />
+            <SkillCard
+              icon={<BiLogoMongodb />}
+              name="MongoDB"
+              percentage="70%"
+            />
+            <SkillCard icon={<SiSwagger />} name="Swagger" percentage="70%" />
           </div>
         </section>
       </div>
-      <div className="rounded-full md:border-4 border-2 border-fuchsia-300 md:w-52 md:h-52"></div>
     </>
+  );
+};
+
+// Reusable SkillCard component
+const SkillCard = ({ icon, name, percentage }) => {
+  return (
+    <div className="text-center rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
+      <div className="flex justify-center text-green-500 text-6xl mb-2">
+        {icon}
+      </div>
+      <h3 className="font-semibold text-fuchsia-300 text-xl underline">
+        {name}
+      </h3>
+      <p className="text-slate-100 text-2xl pt-4">{percentage}</p>
+    </div>
   );
 };
 

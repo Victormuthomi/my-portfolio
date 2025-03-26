@@ -25,7 +25,7 @@ const Navbar = () => {
           </a>
         </div>
         {/* Desktop Menu */}
-        <ul className="hidden md:flex justify-end items-end space-x-4 text-cyan-300 font-semibold  text-2xl underline decoration-cyan-200 mr-4">
+        <ul className="hidden md:flex justify-end items-end space-x-4 text-cyan-300 font-semibold  text-2xl underline decoration-cyan-200 mr-20">
           <li>
             <a href="#about" className=" hover:text-indigo-300">
               About
