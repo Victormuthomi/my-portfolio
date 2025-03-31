@@ -1,5 +1,7 @@
 import { FaDiagramProject } from "react-icons/fa6";
 import me from "../assets/me3.jpg";
+import my from "../assets/mine.jpg";
+import mine from "../assets/new.png";
 
 const Projects = () => {
   return (
@@ -60,7 +62,7 @@ const Projects = () => {
             </div>
 
             <img
-              src={me}
+              src={mine}
               alt="me"
               className="hidden md:block w-80 h-80 mt-10 rounded-full border-4 border-fuchsia-300"
             />
@@ -108,7 +110,7 @@ const Projects = () => {
       </div>
       <div className="flex justify-center items-center">
         <img
-          src={me}
+          src={mine}
           alt="me"
           className="block md:hidden w-80 h-80 mt-32 rounded-full border-4 border-fuchsia-300"
         />
