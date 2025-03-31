@@ -1,5 +1,3 @@
-import me from "../assets/me2.jpg";
-import mine from "../assets/new.png";
 import mat from "../assets/mat.jpeg";
 
 const Hero = () => {
