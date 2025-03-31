@@ -18,7 +18,7 @@ function ContactForm() {
     <div className="flex justify-center items-center">
       <form
         onSubmit={handleSubmit}
-        className="max-w-2xl w-[900px] md:border-4 border-fuchsia-300 px-6 py-4 rounded-3xl"
+        className="max-w-2xl w-[900px] md:border-4 border-fuchsia-300 px-6 py-4 rounded-3xl bg-gray-900"
       >
         <div className="relative">
           <FaUser className="absolute mt-6 text-white text-2xl  transform -translate-y-1/2" />

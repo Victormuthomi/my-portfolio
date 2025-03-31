@@ -21,14 +21,14 @@ const Projects = () => {
             <div className="text-center bg- rounded-full border-0 border-fuchsia-300 w-78 h-82"></div>
 
             <div className="flex justify-center items-center">
-              <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90">
+              <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90 bg-gray-900">
                 <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
                   Git Connect
                 </h3>
                 <p className="text-slate-100 p-1">
-                  GitConnect is a networking platform built with Go, Gin, React,
-                  and Tailwind, designed to connect GitHub users, foster
-                  collaboration, and simplify project discovery.{" "}
+                  GitConnect is a networking platform built with Go, Gin,
+                  Postgresql, React, and Tailwind, designed to connect GitHub
+                  users, foster collaboration, and simplify project discovery.{" "}
                 </p>
                 <a
                   href="https://gitconnect-frontend.vercel.app/"
@@ -40,15 +40,15 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-center items-center">
-              <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90">
+              <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90 bg-gray-900">
                 <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
                   Tuvote
                 </h3>
                 <p className="text-slate-100 p-2">
-                  Tuvote is an online voting system built with Go, Gin, React,
-                  and Tailwind, designed to securely manage elections while
-                  ensuring integrity, transparency, and a seamless voting
-                  experience.
+                  Tuvote is an online voting system built with Go,
+                  Gin,Postgresql React, and Tailwind, designed to securely
+                  manage elections while ensuring integrity, transparency, and a
+                  seamless voting experience.
                 </p>
                 <a
                   href=" https://tuvote-frontend.vercel.app/"
@@ -66,14 +66,14 @@ const Projects = () => {
             />
 
             <div className="flex justify-center items-center">
-              <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90">
+              <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90 bg-gray-900">
                 <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
                   Recipe Tracker
                 </h3>
                 <p className="text-slate-100 p-2">
-                  A recipe tracker application built with React and Tailwind,
-                  allowing users to create, edit, and delete recipes while
-                  saving their data locally for long-term access
+                  A recipe tracker application built with React, MongoDB and
+                  Tailwind, allowing users to create, edit, and delete recipes
+                  while saving their data locally for long-term access
                 </p>
                 <a
                   href="https://recipe-tracker-phi.vercel.app/"
@@ -85,14 +85,15 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-center items-center">
-              <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90">
+              <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90 bg-gray-900">
                 <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
                   Inventory Management
                 </h3>
                 <p className="text-slate-100 p-2">
-                  GitConnect is a full-stack developer networking platform built
-                  with Go, Gin, React, and Tailwind, designed to connect GitHub
-                  users, foster collaboration, and simplify project discovery.
+                  IMS is a comprehensive inventory management solution built
+                  with Node, Express, React, MongoDB, and Tailwind. It
+                  streamlines inventory tracking and organization, providing
+                  real-time insights and boosting operational efficiency.{" "}
                 </p>
                 <a
                   href=" https://ims-6xgi.vercel.app/"

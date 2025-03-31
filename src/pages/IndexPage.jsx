@@ -6,6 +6,8 @@ import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 import Socials from "../components/Socials";
 import Footer from "../components/Footer";
+import Education from "../components/Education";
+import Experience from "../components/Experience";
 import image from "../assets/cool.jpg";
 
 const IndexPage = () => {
@@ -24,6 +26,8 @@ const IndexPage = () => {
         <About />
         <Skills />
         <Projects />
+        <Education />
+        <Experience />
         <Contact />
         <Socials />
         <Footer />
