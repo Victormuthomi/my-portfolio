@@ -1,4 +1,6 @@
 import me from "../assets/me2.jpg";
+import mine from "../assets/new.png";
+import mat from "../assets/mat.jpeg";
 
 const Hero = () => {
   return (
@@ -10,7 +12,7 @@ const Hero = () => {
         >
           <div className="md:flex justify-center items-center justify-start items-start gap-4 md:pl-44 pl-12 mb-2">
             <img
-              src={me}
+              src={mat}
               alt="me"
               className="w-80 h-80 rounded-full border-4 border-fuchsia-300"
             />
