@@ -20,7 +20,7 @@ import { DiPostgresql } from "react-icons/di";
 const Skills = () => {
   return (
     <>
-      {/* <!-- Skills Section --> */}
+      {/* Skills Section */}
       <div className="flex justify-center items-center mb-4">
         <section
           className="max-w-7xl mx-auto px-2 py-6 mb-10 w-full lg:w-[980px]"
@@ -33,7 +33,6 @@ const Skills = () => {
             <FaTools className="text-4xl ml-4 text-white animate-spin slow-spin" />
           </div>
           {/* Responsive grid: 2 columns by default, 3 on md, 4 on lg */}
-          {/* On medium screens and above, the grid container shifts slightly to the left */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:ml-8">
             {/* Row 1 (Backend) */}
             <SkillCard icon={<FaNodeJs />} name="Node JS" percentage="85%" />
@@ -87,7 +86,7 @@ const Skills = () => {
 // Reusable SkillCard component
 const SkillCard = ({ icon, name, percentage }) => {
   return (
-    <div className="text-center rounded-full border-4 pt-8 border-fuchsia-300 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
+    <div className="text-center rounded-full border-4 pt-8 border-fuchsia-300 bg-gray-900 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
       <div className="flex justify-center text-green-500 text-6xl mb-2">
         {icon}
       </div>
