@@ -1,4 +1,4 @@
-import mat from "../assets/mat.jpeg";
+import mat from "../assets/a.jpeg";
 
 const Hero = () => {
   return (
