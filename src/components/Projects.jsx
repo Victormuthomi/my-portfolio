@@ -1,5 +1,5 @@
 import { FaDiagramProject } from "react-icons/fa6";
-import mine from "../assets/new.png";
+import mine from "../assets/b.jpeg";
 
 const Projects = () => {
   return (
