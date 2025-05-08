@@ -16,9 +16,9 @@ const Experience = () => {
         </div>
 
         {/* Two Column Layout */}
-        <div className="grid md:grid-cols-3 gap-8 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
           {/* Company & Year Column */}
-          <div className="md:col-span-1 text-left md:pl-64">
+          <div className="md:col-span-1 text-left md:pl-24">
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-fuchsia-300">
               Eleli Afrika
             </h3>
