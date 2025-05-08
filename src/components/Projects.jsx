@@ -16,8 +16,9 @@ const Projects = () => {
             </h2>
             <FaDiagramProject className="text-5xl ml-4 mb-6 text-white animate-spin slow-spin" />
           </div>
+
           <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 md:gap-8 gap-10 px-6">
-            {/* <!-- Project 1 --> */}
+            {/* Project 1 */}
             <div className="text-center bg- rounded-full border-0 border-fuchsia-300 w-78 h-82"></div>
 
             <div className="flex justify-center items-center">
@@ -39,15 +40,16 @@ const Projects = () => {
               </div>
             </div>
 
+            {/* Project 2 */}
             <div className="flex justify-center items-center">
               <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90 bg-gray-900">
                 <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
                   Tuvote
                 </h3>
                 <p className="text-slate-100 p-2">
-                  Tuvote is an online voting system built with Go,
-                  Gin,Postgresql React, and Tailwind, designed to securely
-                  manage elections while ensuring integrity, transparency, and a
+                  Tuvote is an online voting system built with Go, Gin,
+                  Postgresql, React, and Tailwind, designed to securely manage
+                  elections while ensuring integrity, transparency, and a
                   seamless voting experience.
                 </p>
                 <a
@@ -59,12 +61,16 @@ const Projects = () => {
               </div>
             </div>
 
-            <img
-              src={mine}
-              alt="me"
-              className="hidden md:block w-80 h-80 mt-10 rounded-full border-4 border-fuchsia-300"
-            />
+            {/* Profile Image */}
+            <div className="flex justify-center items-center">
+              <img
+                src={mine}
+                alt="me"
+                className="hidden md:block w-80 h-80 mt-10 rounded-full border-4 border-fuchsia-300"
+              />
+            </div>
 
+            {/* Project 3 */}
             <div className="flex justify-center items-center">
               <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90 bg-gray-900">
                 <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
@@ -84,19 +90,20 @@ const Projects = () => {
               </div>
             </div>
 
+            {/* Project 4 */}
             <div className="flex justify-center items-center">
               <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90 bg-gray-900">
                 <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
-                  Inventory Management
+                  Razorbill
                 </h3>
                 <p className="text-slate-100 p-2">
-                  IMS is a comprehensive inventory management solution built
-                  with Node, Express, React, MongoDB, and Tailwind. It
-                  streamlines inventory tracking and organization, providing
-                  real-time insights and boosting operational efficiency.{" "}
+                  Razorbill is a sports streaming platform built using React and
+                  Tailwind CSS. It allows users to discover and watch
+                  high-quality video content with a smooth, responsive user
+                  experience.
                 </p>
                 <a
-                  href=" https://ims-6xgi.vercel.app/"
+                  href="https://razorbill-website.vercel.app/"
                   className="text-fuchsia-600 hover:underline"
                 >
                   View Project
@@ -106,6 +113,8 @@ const Projects = () => {
           </div>
         </section>
       </div>
+
+      {/* Mobile Profile Image */}
       <div className="flex justify-center items-center">
         <img
           src={mine}
