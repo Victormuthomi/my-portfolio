@@ -11,8 +11,8 @@ const About = () => {
           className="max-w-7xl md:py-6 py-10 h-auto mt-12 mb-0 w-full px-4 md:w-[950px] max-w-[90%]"
           id="about"
         >
-          <div className="flex justify-center items-center">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center text-fuchsia-500 mb-6 whitespace-nowrap">
+          <div className="flex justify-center items-center underline decoration-fuchsia-300 hover:decoration-fuchsia-500">
+            <h2 className="text-4xl md:text-5xl font-bold text-center text-fuchsia-500 mb-6 whitespace-nowrap">
               ABOUT ME
             </h2>
             <FaUserGear className="text-3xl sm:text-4xl md:text-5xl ml-4 mb-6 text-white animate-spin slow-spin" />
