@@ -83,17 +83,19 @@ const Skills = () => {
   );
 };
 
-// Reusable SkillCard component
+// ✅ Responsive SkillCard component
 const SkillCard = ({ icon, name, percentage }) => {
   return (
-    <div className="text-center rounded-full border-4 pt-8 border-fuchsia-300 bg-gray-900 w-52 h-52 shadow-lg p-6 hover:animate-bounce transition transform hover:scale-105">
-      <div className="flex justify-center text-green-500 text-6xl mb-2">
+    <div className="text-center rounded-full border-4 pt-6 border-fuchsia-300 bg-gray-900 w-40 h-40 sm:w-44 sm:h-44 md:w-52 md:h-52 shadow-lg p-4 hover:animate-bounce transition transform hover:scale-105">
+      <div className="flex justify-center text-green-500 text-4xl sm:text-5xl md:text-6xl mb-2">
         {icon}
       </div>
-      <h3 className="font-semibold text-fuchsia-300 text-xl underline">
+      <h3 className="font-semibold text-fuchsia-300 text-sm sm:text-base md:text-xl underline">
         {name}
       </h3>
-      <p className="text-slate-100 text-2xl pt-4">{percentage}</p>
+      <p className="text-slate-100 text-lg sm:text-xl md:text-2xl pt-2 sm:pt-3 md:pt-4">
+        {percentage}
+      </p>
     </div>
   );
 };
