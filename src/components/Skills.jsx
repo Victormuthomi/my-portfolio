@@ -66,7 +66,7 @@ const Skills = () => {
             <SkillCard
               icon={<SiTailwindcss />}
               name="TailwindCSS"
-              level="Intermediate"
+              level="Expert"
             />
             <SkillCard
               icon={
