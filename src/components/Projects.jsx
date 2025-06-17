@@ -27,9 +27,9 @@ const Projects = () => {
                   Git Connect
                 </h3>
                 <p className="text-slate-100 p-1">
-                  GitConnect is a networking platform built with Go, Gin,
-                  Postgresql, React, and Tailwind, designed to connect GitHub
-                  users, foster collaboration, and simplify project discovery.{" "}
+                  GitConnect is a networking platform built with Gin,
+                  Postgresql, React, and Tailwind, designed to connect users,
+                  foster collaboration, and simplify project discovery.{" "}
                 </p>
                 <a
                   href="https://gitconnect-frontend.vercel.app/"
@@ -72,17 +72,17 @@ const Projects = () => {
 
             {/* Project 3 */}
             <div className="flex justify-center items-center">
-              <div className="text-center bg- rounded-full border-4 border-fuchsia-300 w-96 h-90 bg-gray-900">
+              <div className="text-center rounded-full border-4 border-fuchsia-300 w-96 h-90 bg-gray-900">
                 <h3 className="font-semibold text-fuchsia-300 text-xl pt-4 underline mb-2">
-                  Recipe Tracker
+                  RotaFlow
                 </h3>
                 <p className="text-slate-100 p-2">
-                  A recipe tracker application built with React, MongoDB and
-                  Tailwind, allowing users to create, edit, and delete recipes
-                  while saving their data locally for long-term access
+                  RotaFlow is a shift scheduling app built with PostgreSQL,
+                  Express, React, Node.js, and TailwindCSS, designed to
+                  streamline team coordination in dynamic workplaces.{" "}
                 </p>
                 <a
-                  href="https://recipe-tracker-phi.vercel.app/"
+                  href="https://rotaflow-frontend.vercel.app/"
                   className="text-fuchsia-600 hover:underline"
                 >
                   View Project
