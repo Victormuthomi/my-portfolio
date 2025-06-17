@@ -19,14 +19,19 @@ const About = () => {
           </div>
 
           <p className="text-lg sm:text-xl md:text-2xl text-center md:text-justify text-slate-200 leading-relaxed">
-            I'm a Full-Stack Developer passionate about building real-world
-            solutions. I work with MongoDB, Express.js, React.js, Node.js,
-            Python/Django, Go, Gin, PostgreSQL, and DevOps to create scalable,
-            high-performance applications. For me, coding is about solving
-            problems, optimizing efficiency, and turning ideas into seamless
-            digital experiences. I thrive on tackling challenges and constantly
-            learning to stay ahead. If you're working on something exciting,
-            let’s connect!
+            I'm a Full-Stack Developer who designs and builds real-world,
+            scalable solutions using modern technologies like Node.js, Express,
+            React, Go, Django, and PostgreSQL. My approach combines clean
+            architecture, efficient problem-solving, and a strong focus on user
+            experience and performance. I’ve built projects from the ground up —
+            from backend APIs to dynamic frontends and Dockerized deployments.
+            I’m not just passionate about coding — I’m driven to build solutions
+            that work in production, meet real needs, and scale with users. I
+            thrive in fast-paced environments and love working on meaningful
+            products. Always improving, always learning — I stay sharp by
+            keeping up with new tools, contributing to projects, and refining my
+            craft. If you’re building something impactful and need a developer
+            who delivers — let’s connect.{" "}
           </p>
         </section>
       </div>
