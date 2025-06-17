@@ -114,12 +114,12 @@ const Projects = () => {
         </section>
       </div>
 
-      {/* Mobile Profile Image */}
-      <div className="flex justify-center items-center">
+      {/* Mobile Profile Image (moved down just a bit more) */}
+      <div className="flex justify-center items-center mt-40 md:hidden">
         <img
           src={mine}
           alt="me"
-          className="block md:hidden w-80 h-80 mt-32 rounded-full border-4 border-fuchsia-300"
+          className="block md:hidden w-80 h-80 rounded-full border-4 border-fuchsia-300"
         />
       </div>
     </>
