@@ -86,11 +86,7 @@ const Skills = () => {
               name="PostgreSQL"
               level="Intermediate"
             />
-            <SkillCard
-              icon={<BiLogoMongodb />}
-              name="MongoDB"
-              level="Intermediate"
-            />
+            <SkillCard icon={<BiLogoMongodb />} name="MongoDB" level="Expert" />
             <SkillCard
               icon={<SiSwagger />}
               name="Swagger"
