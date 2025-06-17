@@ -12,15 +12,15 @@ const router = createBrowserRouter(
     <>
       <Route index element={<IndexPage />} />
       <Route path="*" element={<NotFoundPage />} />
-    </>
-  )
+    </>,
+  ),
 );
 
 const App = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <RouterProvider router={router} />
-    </>
+    </div>
   );
 };
 
