@@ -30,20 +30,20 @@ const Education = () => {
           {/* Description Column */}
           <div className="md:col-span-2">
             <p className="text-justify indent-8 text-slate-100 text-lg sm:text-xl md:text-2xl leading-relaxed">
-              I am a self-taught software engineer whose journey began with a
-              strong foundation in data structures and algorithms, developed
-              through studies in C and C++. I refined my skills in version
-              control using Git and GitHub and built robust back-end solutions
-              with Python and Django. I then expanded my expertise by developing
-              front-end applications with JavaScript and the full MERN stack
-              (MongoDB, Express, React, and Node.js), and later, I explored
-              high-performance development with Go and Gin. Most recently, I
-              have incorporated DevOps practices to streamline deployments and
-              enhance system reliability. This continuous learning process
-              sharpens my problem-solving abilities and enables me to create
-              scalable, user-focused applications that address real-world
-              challenges, while I remain dedicated to staying current with
-              emerging trends in the tech industry.
+              I'm a self-taught Software Engineer with a strong foundation in
+              data structures and algorithms, developed through early work in C
+              and C++. I began my journey mastering version control with Git and
+              GitHub, and built reliable backend systems with Python and Django.
+              I then transitioned into full-stack development using both the
+              MERN (MongoDB, Express, React, Node.js) and PERN (PostgreSQL,
+              Express, React, Node.js) stacks, delivering scalable, user-focused
+              applications. I also explored high-performance backend engineering
+              with Go and Gin, and recently integrated DevOps practices to
+              automate deployments and enhance reliability. This journey of
+              continuous learning has shaped me into a well-rounded engineer who
+              thrives on building robust digital solutions. I'm always pushing
+              my skills forward to stay ahead of industry trends and deliver
+              real-world impact at scale.
             </p>
           </div>
         </div>
