@@ -19,16 +19,21 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="py-10">
-            <h1 className="text-5xl py-4 text-center font-bold">Hi, I am</h1>
-            <h2 className="text-5xl  text-center text-fuchsia-400 font-bold animate-bounce">
+          <div className="py-6">
+            <h1 className="text-5xl py-4 text-center font-bold">
               Victor Muthomi
+            </h1>
+            <h2 className="text-5xl text-center text-fuchsia-400 font-bold">
+              Full Stack Developer
             </h2>
           </div>
-          <p className="md:text-3xl text-2xl text-center ">
-            Designing and developing innovative solutions that bridge ideas with
-            technology, creating impactful and scalable digital experiences
+
+          <p className="md:text-3xl text-2xl text-center">
+            Engineering fast, secure, and scalable web applications with clean
+            code, real-world impact, and a passion for turning bold ideas into
+            live solutions.
           </p>
+
           <div className="mt-2 md:mt-10 flex justify-center space-x-6 text-sm ">
             <a
               href="#contact"
