@@ -61,8 +61,8 @@ const Projects = () => {
                   Tuvote
                 </h3>
                 <p className="text-slate-100">
-                  A secure e-voting system built with Go, Gin, PostgreSQL, React
-                  & Tailwind.
+                  A secure e-voting system built with NodeJS, Express, MongoDB,
+                  React & Tailwind.
                 </p>
                 <div className="mt-2 space-y-1">
                   <a
