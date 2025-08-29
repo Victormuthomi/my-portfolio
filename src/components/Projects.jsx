@@ -4,7 +4,7 @@ import mine from "../assets/b.jpeg";
 const Projects = () => {
   return (
     <>
-      {/* <!-- Projects Section --> */}
+      {/* Projects Section */}
       <div className="flex justify-center items-center">
         <section
           className="md:py-0 py-20 md:h-[650px] h-[1000px] w-[1200px]"
@@ -22,70 +22,22 @@ const Projects = () => {
             <div className="text-center w-78 h-82"></div>
 
             {/* GitConnect */}
-            <div className="flex justify-center items-center">
-              <div className="text-center bg-gray-900 rounded-full border-4 border-fuchsia-300 w-96 h-90 p-4">
-                <h3 className="font-semibold text-fuchsia-300 text-xl underline mb-2">
-                  Git Connect
-                </h3>
-                <p className="text-slate-100">
-                  A social platform for developers built with Gin, PostgreSQL,
-                  React & Tailwind.
-                </p>
-                <div className="mt-2 space-y-1">
-                  <a
-                    href="https://gitconnect-frontend.vercel.app/"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href="https://github.com/Victormuthomi/gitconnect-frontend"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Frontend Repo
-                  </a>
-                  <a
-                    href="https://github.com/Victormuthomi/gitconnect-backend"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Backend Repo
-                  </a>
-                </div>
-              </div>
-            </div>
+            <ProjectCard
+              title="Git Connect"
+              description="A social platform for developers built with Gin, PostgreSQL, React & Tailwind."
+              liveLink="https://gitconnect-frontend.vercel.app/"
+              frontendRepo="https://github.com/Victormuthomi/gitconnect-frontend"
+              backendRepo="https://github.com/Victormuthomi/gitconnect-backend"
+            />
 
             {/* Tuvote */}
-            <div className="flex justify-center items-center">
-              <div className="text-center bg-gray-900 rounded-full border-4 border-fuchsia-300 w-96 h-90 p-4">
-                <h3 className="font-semibold text-fuchsia-300 text-xl underline mb-2">
-                  Tuvote
-                </h3>
-                <p className="text-slate-100">
-                  A secure e-voting system built with NodeJS, Express, MongoDB,
-                  React & Tailwind.
-                </p>
-                <div className="mt-2 space-y-1">
-                  <a
-                    href="https://tuvote-frontend.vercel.app/"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href="https://github.com/Victormuthomi/tuvote-frontend"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Frontend Repo
-                  </a>
-                  <a
-                    href="https://github.com/Victormuthomi/tuvote-backend"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Backend Repo
-                  </a>
-                </div>
-              </div>
-            </div>
+            <ProjectCard
+              title="Tuvote"
+              description="A secure e-voting system built with NodeJS, Express, MongoDB, React & Tailwind."
+              liveLink="https://tuvote-frontend.vercel.app/"
+              frontendRepo="https://github.com/Victormuthomi/tuvote-frontend"
+              backendRepo="https://github.com/Victormuthomi/tuvote-backend"
+            />
 
             {/* Profile Image */}
             <div className="flex justify-center items-center">
@@ -97,64 +49,30 @@ const Projects = () => {
             </div>
 
             {/* RotaFlow */}
-            <div className="flex justify-center items-center">
-              <div className="text-center bg-gray-900 rounded-full border-4 border-fuchsia-300 w-96 h-90 p-4">
-                <h3 className="font-semibold text-fuchsia-300 text-xl underline mb-2">
-                  RotaFlow
-                </h3>
-                <p className="text-slate-100">
-                  A shift scheduling tool built with Node.js, Express,
-                  PostgreSQL, React & Tailwind.
-                </p>
-                <div className="mt-2 space-y-1">
-                  <a
-                    href="https://rotaflow-frontend.vercel.app/"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href="https://github.com/Victormuthomi/rotaflow-frontend"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Frontend Repo
-                  </a>
-                  <a
-                    href="https://github.com/Victormuthomi/rotaflow-backend"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Backend Repo
-                  </a>
-                </div>
-              </div>
-            </div>
+            <ProjectCard
+              title="RotaFlow"
+              description="A shift scheduling tool built with Node.js, Express, PostgreSQL, React & Tailwind."
+              liveLink="https://rotaflow-frontend.vercel.app/"
+              frontendRepo="https://github.com/Victormuthomi/rotaflow-frontend"
+              backendRepo="https://github.com/Victormuthomi/rotaflow-backend"
+            />
 
             {/* Razorbill */}
-            <div className="flex justify-center items-center">
-              <div className="text-center bg-gray-900 rounded-full border-4 border-fuchsia-300 w-96 h-90 p-4">
-                <h3 className="font-semibold text-fuchsia-300 text-xl underline mb-2">
-                  Razorbill
-                </h3>
-                <p className="text-slate-100">
-                  A smooth streaming platform for sports content using React &
-                  Tailwind CSS.
-                </p>
-                <div className="mt-2 space-y-1">
-                  <a
-                    href="https://razorbill-website.vercel.app/"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href="https://github.com/Victormuthomi/razorbill-website"
-                    className="text-fuchsia-500 hover:underline block"
-                  >
-                    Frontend Repo
-                  </a>
-                </div>
-              </div>
-            </div>
+            <ProjectCard
+              title="Razorbill"
+              description="A smooth streaming platform for sports content using React & Tailwind CSS."
+              liveLink="https://razorbill-website.vercel.app/"
+              frontendRepo="https://github.com/Victormuthomi/razorbill-website"
+            />
+
+            {/* AjiriNow */}
+            <ProjectCard
+              title="AjiriNow"
+              description="A job listing and recruitment platform built with Django REST Framework, React, and PostgreSQL."
+              liveLink="https://ajirinow.vercel.app/"
+              frontendRepo="https://github.com/Victormuthomi/ajirinow-frontend"
+              backendRepo="https://github.com/Victormuthomi/ajirinow-backend"
+            />
           </div>
         </section>
       </div>
@@ -168,6 +86,34 @@ const Projects = () => {
         />
       </div>
     </>
+  );
+};
+
+const ProjectCard = ({ title, description, liveLink, frontendRepo, backendRepo }) => {
+  return (
+    <div className="flex justify-center items-center">
+      <div className="text-center bg-gray-900 rounded-full border-4 border-fuchsia-300 w-96 h-90 p-4">
+        <h3 className="font-semibold text-fuchsia-300 text-xl underline mb-2">{title}</h3>
+        <p className="text-slate-100">{description}</p>
+        <div className="mt-2 space-y-1">
+          {liveLink && (
+            <a href={liveLink} className="text-fuchsia-500 hover:underline block">
+              Live Demo
+            </a>
+          )}
+          {frontendRepo && (
+            <a href={frontendRepo} className="text-fuchsia-500 hover:underline block">
+              Frontend Repo
+            </a>
+          )}
+          {backendRepo && (
+            <a href={backendRepo} className="text-fuchsia-500 hover:underline block">
+              Backend Repo
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
   );
 };
 
