@@ -87,7 +87,7 @@ const Skills = () => {
             />
 
             {/* Databases */}
-            <SkillCard icon={<DiPostgresql />} name="PostgreSQL" level="Intermediate" />
+            <SkillCard icon={<SiPostgresql />} name="PostgreSQL" level="Intermediate" />
             <SkillCard icon={<BiLogoMongodb />} name="MongoDB" level="Expert" />
 
             {/* DevOps & Infra */}
