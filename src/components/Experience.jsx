@@ -17,34 +17,29 @@ const Experience = () => {
 
         {/* Experience Entries */}
         <div className="space-y-12">
-          {/* DevOps Engineer */}
+          {/* Full-Stack Developer – Eleli Afrika */}
           <div className="space-y-2">
             <h3 className="text-3xl font-semibold text-fuchsia-300">
-              DevOps Engineer – Eleli Afrika
+              Full-Stack Developer – Eleli Afrika
             </h3>
             <p className="text-lg text-slate-100 mb-2">2024 – 2025</p>
             <ul className="list-disc list-inside space-y-2 text-justify text-base sm:text-lg md:text-xl text-slate-100">
               <li>
-                Automated CI/CD pipelines with GitHub Actions, reducing
-                deployment errors by 50% and accelerating release cycles.
+                Built backend APIs using Node.js (TypeScript) and Go, integrating business logic for enterprise applications.
               </li>
               <li>
-                Deployed microservices using Docker and Kubernetes, ensuring
-                scalable and resilient production environments.
+                Developed full-stack features for multiple client-facing platforms with React frontend.
               </li>
               <li>
-                Implemented Infrastructure as Code with Terraform and
-                configuration management with Ansible, enabling repeatable,
-                consistent deployments.
+                Supported containerized deployments and CI/CD pipelines to ensure smooth production releases.
               </li>
               <li>
-                Designed monitoring and observability with Prometheus and
-                Grafana, improving system uptime and performance by 25%.
+                Improved application reliability and performance by implementing monitoring best practices.
               </li>
             </ul>
           </div>
 
-          {/* Full-Stack Developer */}
+          {/* Full-Stack Developer – Bandika IoT */}
           <div className="space-y-2">
             <h3 className="text-3xl font-semibold text-fuchsia-300">
               Full-Stack Developer – Bandika IoT
@@ -52,22 +47,18 @@ const Experience = () => {
             <p className="text-lg text-slate-100 mb-2">2023 – 2024</p>
             <ul className="list-disc list-inside space-y-2 text-justify text-base sm:text-lg md:text-xl text-slate-100">
               <li>
-                Developed IoT dashboards and APIs using MERN, PERN, and Go
-                (Gin), integrating frontend and backend for real-time data
-                visualization.
+                Developed IoT dashboards and APIs using MERN, PERN, and Go (Gin), integrating frontend and backend for real-time data visualization.
               </li>
               <li>
-                Initiated containerized deployments with Docker and Docker
-                Compose, streamlining development-to-production workflows.
+                Initiated containerized deployments with Docker and Docker Compose, streamlining development-to-production workflows.
               </li>
               <li>
-                Collaborated with cross-functional teams, bridging development
-                and operational processes to improve deployment efficiency.
+                Collaborated on cross-functional teams, bridging development and operational processes to improve deployment efficiency.
               </li>
             </ul>
           </div>
 
-          {/* Backend Developer */}
+          {/* Backend Developer – Kisumu Lakeside Homes */}
           <div className="space-y-2">
             <h3 className="text-3xl font-semibold text-fuchsia-300">
               Backend Developer – Kisumu Lakeside Homes
@@ -75,16 +66,13 @@ const Experience = () => {
             <p className="text-lg text-slate-100 mb-2">2022 – 2023</p>
             <ul className="list-disc list-inside space-y-2 text-justify text-base sm:text-lg md:text-xl text-slate-100">
               <li>
-                Built REST APIs using Django and Django REST Framework,
-                implementing robust authentication and database optimization.
+                Built REST APIs using Django and Django REST Framework, implementing robust authentication and database optimization.
               </li>
               <li>
-                Enhanced system performance and security, improving response
-                times by 30%.
+                Enhanced system performance and security, improving response times by 30%.
               </li>
               <li>
-                Gained early exposure to deployment workflows, laying the
-                foundation for DevOps practices.
+                Gained early exposure to deployment workflows, laying the foundation for DevOps practices.
               </li>
             </ul>
           </div>
