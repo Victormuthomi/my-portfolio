@@ -15,8 +15,16 @@ import {
   SiRedux,
   SiSwagger,
   SiGo,
+  SiTypescript,
+  SiNextdotjs,
+  SiPrisma,
+  SiPostgresql,
+  SiTerraform,
+  SiAnsible,
+  SiKubernetes,
+  SiPrometheus,
+  SiGrafana,
 } from "react-icons/si";
-import { DiPostgresql } from "react-icons/di";
 
 const Skills = () => {
   return (
@@ -59,15 +67,14 @@ const Skills = () => {
             <SkillCard icon={<SiExpress />} name="Express JS" level="Expert" />
             <SkillCard icon={<SiDjango />} name="Django" level="Expert" />
             <SkillCard icon={<SiGo />} name="Go & Gin" level="Intermediate" />
+            <SkillCard icon={<SiTypescript />} name="TypeScript" level="Expert" />
+            <SkillCard icon={<SiPrisma />} name="Prisma" level="Intermediate" />
 
             {/* Frontend */}
             <SkillCard icon={<FaReact />} name="React" level="Expert" />
+            <SkillCard icon={<SiNextdotjs />} name="Next.js" level="Expert" />
             <SkillCard icon={<SiRedux />} name="Redux" level="Intermediate" />
-            <SkillCard
-              icon={<SiTailwindcss />}
-              name="TailwindCSS"
-              level="Expert"
-            />
+            <SkillCard icon={<SiTailwindcss />} name="TailwindCSS" level="Expert" />
             <SkillCard
               icon={
                 <div className="flex justify-center">
@@ -79,19 +86,20 @@ const Skills = () => {
               level="Expert"
             />
 
-            {/* Others */}
-            <SkillCard icon={<FaDocker />} name="Docker" level="Intermediate" />
-            <SkillCard
-              icon={<DiPostgresql />}
-              name="PostgreSQL"
-              level="Intermediate"
-            />
+            {/* Databases */}
+            <SkillCard icon={<DiPostgresql />} name="PostgreSQL" level="Intermediate" />
             <SkillCard icon={<BiLogoMongodb />} name="MongoDB" level="Expert" />
-            <SkillCard
-              icon={<SiSwagger />}
-              name="Swagger"
-              level="Intermediate"
-            />
+
+            {/* DevOps & Infra */}
+            <SkillCard icon={<FaDocker />} name="Docker" level="Intermediate" />
+            <SkillCard icon={<SiKubernetes />} name="Kubernetes" level="Intermediate" />
+            <SkillCard icon={<SiTerraform />} name="Terraform" level="Intermediate" />
+            <SkillCard icon={<SiAnsible />} name="Ansible" level="Intermediate" />
+            <SkillCard icon={<SiPrometheus />} name="Prometheus" level="Intermediate" />
+            <SkillCard icon={<SiGrafana />} name="Grafana" level="Intermediate" />
+
+            {/* Others */}
+            <SkillCard icon={<SiSwagger />} name="Swagger" level="Intermediate" />
           </div>
         </section>
       </div>
@@ -101,9 +109,9 @@ const Skills = () => {
 
 const SkillCard = ({ icon, name, level }) => {
   const getColor = () => {
-    if (level === "Expert") return "text-yellow-400"; // Expert is yellow
-    if (level === "Intermediate") return "text-blue-400"; // Intermediate is blue
-    return "text-green-400"; // Beginner is green
+    if (level === "Expert") return "text-yellow-400";
+    if (level === "Intermediate") return "text-blue-400";
+    return "text-green-400";
   };
 
   const renderStars = () => {
