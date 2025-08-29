@@ -17,7 +17,10 @@ const Projects = () => {
             <FaDiagramProject className="text-5xl ml-4 mb-6 text-white animate-spin slow-spin" />
           </div>
 
-          <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:gap-8 gap-10 px-6">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 md:gap-8 gap-10 px-6">
+            {/* Spacer */}
+            <div className="text-center w-78 h-82"></div>
+
             {/* GitConnect */}
             <ProjectCard
               title="Git Connect"
@@ -35,6 +38,15 @@ const Projects = () => {
               frontendRepo="https://github.com/Victormuthomi/tuvote-frontend"
               backendRepo="https://github.com/Victormuthomi/tuvote-backend"
             />
+
+            {/* Profile Image */}
+            <div className="flex justify-center items-center">
+              <img
+                src={mine}
+                alt="me"
+                className="hidden md:block w-80 h-80 mt-10 rounded-full border-4 border-fuchsia-300"
+              />
+            </div>
 
             {/* RotaFlow */}
             <ProjectCard
@@ -54,16 +66,16 @@ const Projects = () => {
               backendRepo="https://github.com/Victormuthomi/ajirinow-backend"
             />
           </div>
-
-          {/* Centered Profile Image */}
-          <div className="flex justify-center items-center mt-12 md:block">
-            <img
-              src={mine}
-              alt="me"
-              className="w-80 h-80 rounded-full border-4 border-fuchsia-300"
-            />
-          </div>
         </section>
+      </div>
+
+      {/* Mobile Profile Image */}
+      <div className="flex justify-center items-center mt-64 md:hidden">
+        <img
+          src={mine}
+          alt="me"
+          className="block md:hidden w-80 h-80 rounded-full border-4 border-fuchsia-300"
+        />
       </div>
     </>
   );
@@ -72,9 +84,9 @@ const Projects = () => {
 const ProjectCard = ({ title, description, liveLink, frontendRepo, backendRepo }) => {
   return (
     <div className="flex justify-center items-center">
-      <div className="text-center bg-gray-900 rounded-xl border-4 border-fuchsia-300 w-96 h-auto p-6">
+      <div className="text-center bg-gray-900 rounded-full border-4 border-fuchsia-300 w-96 h-90 p-4">
         <h3 className="font-semibold text-fuchsia-300 text-xl underline mb-2">{title}</h3>
-        <p className="text-slate-100 mb-2">{description}</p>
+        <p className="text-slate-100">{description}</p>
         <div className="mt-2 space-y-1">
           {liveLink && (
             <a href={liveLink} className="text-fuchsia-500 hover:underline block">
